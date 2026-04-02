@@ -1,0 +1,12 @@
+alignfull
+alignwide
+alignnone
+aligncenter
+alignright
+wp-block-button
+wp-caption
+wp-caption-text
+
+
+w-full
+max-w-[550px]
