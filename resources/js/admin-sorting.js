@@ -25,7 +25,7 @@ jQuery(document).ready(function($) {
     var $videoUrlMetaBox = $('#video_url_meta_box');
     var $videoUrlInput = $('#video_url');
 
-    if ($videoUrlInput.val().trim() === '') {
+    if ($videoUrlInput.length && $videoUrlInput.val().trim() === '') {
         $videoUrlMetaBox.addClass('closed');
     }
 });
